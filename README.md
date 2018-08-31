@@ -19,5 +19,5 @@ The user can then use the **queue** to display the list of currently queue'd son
 
 ![Feedback to user 3](https://i.gyazo.com/68ce074c60a21c2a773fdffe4b3fcfb8.png)
 
-## Documentation 
+### Documentation 
 Please refer to the **wiki** for documentation on all commands.
