@@ -11,7 +11,7 @@ Suppose you use the **play** command. The bot will join the voice channel, and b
 
 ![Feedback to user](https://i.gyazo.com/23ff0e503e24e64bc27b9257f2ec638e.png)
 
-If the **play** command is used again whilst music is playing, it'll be queued insteading: providing the following feedback: 
+If the **play** command is used again whilst music is playing, it'll be queued insteadi; providing the following feedback: 
 
 ![Feedback to user 2](https://i.gyazo.com/8f1c008dc095887593dd0fda2da694b6.png)
 
