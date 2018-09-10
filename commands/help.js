@@ -12,7 +12,7 @@ module.exports = {
         if (!args.length) { // Run the following block of code if no arguments are provided. 
             data.push('Here\'s a list of all of my commands:'); 
             data.push(commands.map(command => command.name).join(', ')); 
-            data.push(`\nYou can send %{prefix}help [command name] to get info on a specific commands`);
+            data.push(`\nYou can send ${prefix}help [command name] to get info on a specific commands`);
 
             return message.author.send(data, {split: true })
                 .then(() => {
@@ -37,6 +37,6 @@ module.exports = {
 
         data.push(`Cooldown: ${command.cooldown || 3}`); 
 
-        message.channel.send(data, {spliut:true});
+        message.channel.send(data, {split:true});
     }
 };
