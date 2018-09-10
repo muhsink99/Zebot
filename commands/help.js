@@ -1,6 +1,6 @@
 const { prefix } = require('../config.json');
 
-module.eports = { 
+module.exports = { 
     name: 'help', 
     description: 'List all of the commands or info about a specific command.',
     usage: '[command name]', 
@@ -32,11 +32,11 @@ module.eports = {
         // Generates command's info message
         data.push(`Name: ${command.name}`);
 
-        if (command.description) (data.push(`Description: ${commands.description}`)); 
+        if (command.description) (data.push(`Description: ${command.description}`)); 
         if (command.usage) (data.push(`Usage: ${prefix}${command.name} ${command.usage}`));
 
-        data.push(`Cooldown: ${command.cooldown}`); 
+        data.push(`Cooldown: ${command.cooldown || 3}`); 
 
         message.channel.send(data, {spliut:true});
     }
-}
+};
