@@ -8,7 +8,6 @@ module.eports = {
     execute(message, args) { 
         const data = []; 
         const { commands } = message.client; // Fetches all the commands. 
-        console.log('Executing help command');
 
         if (!args.length) { // Run the following block of code if no arguments are provided. 
             data.push('Here\'s a list of all of my commands:'); 
